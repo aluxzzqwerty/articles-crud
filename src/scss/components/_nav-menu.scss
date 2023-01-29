@@ -1,0 +1,20 @@
+.nav-menu {
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 40px;
+    max-width: 10vw;
+    padding-right: 60px;
+    font-size: 20px;
+    border-right: 1px solid $border-color;
+    height: 90%;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+
+    &__item:any-link {
+        font-weight: 400;
+        color: $subtitle-color;
+        white-space: nowrap;
+        text-decoration: none;
+    }
+}

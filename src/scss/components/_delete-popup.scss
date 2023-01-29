@@ -1,0 +1,36 @@
+.delete {
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Space Grotesk", sans-serif;;
+    
+    &__modal {
+        background-color: antiquewhite;
+        padding: 30px 40px;
+        border-radius: 10px;
+        display: flex;
+        flex-flow: column nowrap;
+        row-gap: 10px;
+
+        &--header {
+            font-size: 25px;
+            font-weight: 500;
+        }
+
+        &--content {
+            font-size: 17px;
+        }
+
+        &--actions--btns {
+            margin-top: 10px;
+            display: flex;
+            column-gap: 10px;
+        }
+    }
+}

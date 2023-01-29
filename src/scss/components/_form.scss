@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 20px;
+    align-items: flex-start;
+
+    .field {
+        display: flex;
+        flex-flow: column nowrap;
+        row-gap: 20px;
+        width: 50%;
+
+        label {
+            font-size: 30px;
+        }
+
+        input {
+            padding: 15px;
+            border-radius: 10px;
+            border: none;
+            font-size: 20px;
+            outline: 2px solid rgb(22, 172, 22);
+        }
+    }
+}
+
+.error {
+    input {
+        outline: 3px solid red !important;
+    }
+
+    .message {
+        font-size: 20px;
+        color: red;
+    }
+}

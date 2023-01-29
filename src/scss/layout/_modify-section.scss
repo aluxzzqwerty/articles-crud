@@ -1,0 +1,17 @@
+.modify-section {
+    padding:0 50px;
+    width: 80%;
+    font-family: "Space Grotesk", sans-serif;
+
+    &__header {
+        font-family: inherit;
+        font-size: 50px;
+        margin: 20px 0;
+    }
+}
+
+.create-container {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}

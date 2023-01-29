@@ -1,0 +1,40 @@
+.article-container {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 1 auto;
+    height: 95%;
+    align-items: center;
+    row-gap: 40px;
+
+    &__big-title {
+        font-size: 100px;
+        font-family: $title-font;
+        font-weight: 700;
+        letter-spacing: -5px;
+        line-height: 1;
+        margin-bottom: 6px;
+        margin: 0 auto;
+        border-bottom: 1px solid $border-color;
+        padding: 15px;
+        width: 70%;
+      }
+
+      &__details {
+        padding: 20px;
+        width: 70%;
+
+        &--header {
+            font-size: 50px;
+            font-weight: 500;
+            line-height: 1.2;
+            margin: 8px 0 8px;
+        }
+
+        &--description {
+            font-size: 25px;
+            font-weight: 250;
+            line-height: 1.5;
+            margin: 14px 0;
+        }
+      }
+}
